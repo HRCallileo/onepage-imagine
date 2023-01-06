@@ -1,0 +1,54 @@
+body{
+    background-color: #700000;
+}
+header{
+    background-color: white;
+    border: 5px black solid;
+    margin: 0%;
+}
+footer{
+    background-color: white;
+    border: 5px black solid;
+    margin: 0%;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+.container{
+    border: white 2px solid;
+    padding: 0px;
+}
+.image-live{
+    height: 480px;
+    width: fit-content;
+}
+.nom-album{
+    width: fit-content;
+}
+
+@media screen and (max-width:767px){
+    .logo-header{
+        height:125px;
+        align-self: center;
+    }
+    .container{
+        margin: auto;
+        height: 30%;
+        width: 30%;
+    }
+    .photo-artiste{
+        display: none;
+    }
+    .photo-stadium{
+        height: 114.5px;
+    }
+}
+
+@media screen and (min-width:767px){
+    .logo-header{
+        height: 200px;
+    }
+}
